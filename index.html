@@ -154,7 +154,7 @@
             border-radius: 2px;
         }
 
-        /* Services */
+        /* Services Grid */
         .services {
             padding: 100px 0;
             background-color: var(--light-bg);
@@ -232,20 +232,12 @@
             transform: translateY(-5px);
         }
 
-        /* Features */
+        /* Features (Keunggulan) */
         .features {
             padding: 100px 0;
         }
-        .feature-item {
-            display: flex;
-            align-items: flex-start;
-            gap: 20px;
-            margin-bottom: 30px;
-        }
         .feature-icon {
             color: var(--accent-color);
-            font-size: 1.8rem;
-            margin-top: 5px;
         }
 
         /* Workflow */
@@ -278,6 +270,7 @@
             border: 6px solid rgba(255,255,255,0.1);
             box-shadow: 0 10px 20px rgba(0,0,0,0.2);
         }
+        
         /* Connection line for desktop */
         @media (min-width: 992px) {
             .step-connector {
@@ -395,6 +388,7 @@
                     <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
                     <li class="nav-item"><a class="nav-link" href="#keunggulan">Keunggulan</a></li>
                     <li class="nav-item"><a class="nav-link" href="#carakerja">Cara Kerja</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
                     <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
                         <a href="https://wa.me/6285230339066?text=Halo,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20bongkar%20bangunan" class="btn btn-wa-nav" target="_blank">
                             <i class="fa-brands fa-whatsapp me-2"></i>Hubungi Kami
@@ -519,21 +513,23 @@
                             <div class="service-icon-small me-3">
                                 <i class="fa-solid fa-recycle"></i>
                             </div>
-                            <h5 class="fw-bold mb-0 lh-sm">Pemilahan Material Bekas</h5>
+                            <h5 class="fw-bold mb-0 lh-sm">Pembelian Material Bekas</h5>
                         </div>
                         <ul class="text-muted list-unstyled small service-list mb-0">
-                            <li><i class="fa-solid fa-check text-success me-2"></i> Pemilahan material layak pakai (kayu, besi, genteng, pintu)</li>
-                            <li><i class="fa-solid fa-check text-success me-2"></i> Dapat dijual kembali / dihitung pengurang biaya</li>
+                            <li><i class="fa-solid fa-check text-success me-2"></i> Besi tua / scrap (rangka bangunan, pagar, mesin)</li>
+                            <li><i class="fa-solid fa-check text-success me-2"></i> Logam lainnya (aluminium, tembaga, kuningan)</li>
+                            <li><i class="fa-solid fa-check text-success me-2"></i> Kabel bekas dan material konstruksi</li>
+                            <li><i class="fa-solid fa-check text-success me-2"></i> Barang elektronik rusak (TV, kulkas, AC, dll)</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- 5 -->
+                <!-- 5 (Ikon diperbaiki di sini) -->
                 <div class="col-lg-3 col-md-6 reveal">
                     <div class="service-card">
                         <div class="d-flex align-items-center mb-4">
                             <div class="service-icon-small me-3">
-                                <i class="fa-solid fa-truck-dump"></i>
+                                <i class="fa-solid fa-truck-fast"></i>
                             </div>
                             <h5 class="fw-bold mb-0 lh-sm">Pembersihan & Pengangkutan</h5>
                         </div>
@@ -716,7 +712,7 @@
         </div>
     </section>
 
-<!-- Galeri Proyek Section -->
+    <!-- Galeri Proyek Section -->
     <section id="galeri" class="py-5" style="background-color: var(--light-bg);">
         <div class="container py-4">
             <h2 class="section-title reveal">Galeri Proyek Kami</h2>
